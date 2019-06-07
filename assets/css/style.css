@@ -1,0 +1,92 @@
+body{
+    background-image: url("../images/vlad-tchompalov-450762-unsplash.jpg");
+    /* background:linear-gradient(to right, orange , yellow, green, cyan, blue, violet); */
+    
+}
+.maindiv{
+   
+    margin-top:20px;
+    border-block: initial;
+    height:600px;
+    width:200px;
+    border:red outset 10px;
+    border-radius: 12px;
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    
+    
+}
+.headerfont{
+    
+    
+    text-align: center;
+    
+}
+#grad1 {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7vw;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left:400px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 65px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /* css for button group */
+  
+
+  
+  /* Add a background color on hover */
+  .btn button:hover {
+    background-color: red;
+  }
+
+  #question.div{
+    display:inline-block;
+    
+  }
+  #image{
+    height:300px;
+  }
+ 
+ 
